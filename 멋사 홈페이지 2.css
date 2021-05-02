@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+
+}
+header {
+    width:100%;
+    padding:10px;
+    background:black;
+}
+
+header>p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white ;
+}
+
+header>ul {
+    display: flex;
+}
+
+header>ul>li {
+    list-style-type: none;
+    margin-left: 1.5rem;
+    font-weight: 540;
+    font-size:xx-small;
+    color: white
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    color: white
+}
+
+header>ul>li:first-child>a {
+    font-weight: 700;
+}
+
+header>ul>li>a:hover {
+    text-decoration-color: 5px black; 
+}
+
+section {
+    text-align: center;
+    font-size: x-small;
+}
+
+section>p {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    letter-spacing: -1.5px;
+    font-size: x-small;
+}
+
+section>p:nth-child(3) {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family:"Nanum Gothic";
+}
+
+section>p:nth-child(6) {
+    font-weight: bold;
+}
+section>p:nth-child(8) {
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+section>p:second {
+    font-size: 0.5rem;
+    font-weight: 50;
+    letter-spacing: -1.5px;
+}
+
+footer {
+    margin-bottom: 0.5rem;
+    font-size: xx-small;
+
+}
